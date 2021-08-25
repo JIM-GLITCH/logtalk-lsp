@@ -21,23 +21,32 @@
 	],
 	"main": "./client/out/extension",
 	"contributes": {
-		"languages": [{
-            "id": "logtalk",
-            "aliases": ["logtalk", "logtalk"],
-            "extensions": [".lgt"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "logtalk",
-            "scopeName": "source.logtalk",
-            "path": "./syntaxes/Logtalk.tmLanguage"
-        }],
+		"languages": [
+			{
+				"id": "logtalk",
+				"aliases": [
+					"logtalk",
+					"logtalk"
+				],
+				"extensions": [
+					".lgt"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "logtalk",
+				"scopeName": "source.logtalk",
+				"path": "./syntaxes/Logtalk.tmLanguage"
+			}
+		],
 		"snippets": [
-            {
-                "language": "logtalk",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ],
+			{
+				"language": "logtalk",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		],
 		"configuration": {
 			"type": "object",
 			"title": "Example configuration",
