@@ -52,7 +52,7 @@ export function activate(context: ExtensionContext) {
 		serverOptions,
 		clientOptions
 	);
-
+	
 	// Start the client. This will also launch the server
 	client.start();
 }
@@ -63,3 +63,9 @@ export function deactivate(): Thenable<void> | undefined {
 	}
 	return client.stop();
 }
+
+
+
+
+
+const ttttt=1;
