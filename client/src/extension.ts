@@ -68,4 +68,3 @@ export function deactivate(): Thenable<void> | undefined {
 
 
 
-const ttttt=1;
